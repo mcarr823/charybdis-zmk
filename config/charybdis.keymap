@@ -55,20 +55,6 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        left_bootloader {
-            bindings = <&bootloader>;
-            key-positions = <20 0>;
-        };
-
-        right_bootloader {
-            bindings = <&bootloader>;
-            key-positions = <9 29>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
