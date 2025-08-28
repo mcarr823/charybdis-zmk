@@ -58,11 +58,3 @@
       // automouse-layer = <3>;
     };
 };
-
-/ {
-  trackball_listener {
-    compatible = "zmk,input-listener";
-    device = <&trackball_split>;
-
-  };
-};

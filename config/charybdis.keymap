@@ -55,6 +55,12 @@
         };
     };
 
+    trackball_listener {
+      compatible = "zmk,input-listener";
+      device = <&trackball_split>;
+
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
