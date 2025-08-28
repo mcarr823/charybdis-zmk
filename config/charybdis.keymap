@@ -92,18 +92,18 @@
             label = "Media";
             bindings = <
   &kp F1  &kp F2                 &kp F3                 &kp F4                 &kp F5    &kp F6          &kp F7        &kp F8        &kp F9        &kp F10
-  &mo 4   &kp LS(LA(LC(LEFT)))   &kp LA(LC(LS(ENTER)))  &kp LS(LA(LC(RIGHT)))  &none     &none           &mkp MB1      &mkp MB3      &mkp MB2      &none
-  &none   &kp LS(LA(LC(MINUS)))  &kp LS(LA(LC(SPACE)))  &kp LA(LC(LS(EQUAL)))  &none     &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4
+  &none   &kp LS(LA(LC(LEFT)))   &kp LA(LC(LS(ENTER)))  &kp LS(LA(LC(RIGHT)))  &none     &none           &kp LS(LA(LC(MINUS)))  &kp LS(LA(LC(SPACE)))  &kp LA(LC(LS(EQUAL)))      &none
+  &none   &none  &none  &none  &none     &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 4
                                  &trans                 &trans                 &trans    &trans          &trans
             >;
         };
 
         Scroll {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans
+  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
+  &none  &mkp MB2 &mkp MB3 &mkp MB1  &none    &none  &mkp MB1 &mkp MB3 &mkp MB2  &none
+  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
+                  &none    &none     &none    &none  &none
             >;
 
             label = "Scroll";
