@@ -15,7 +15,7 @@ layers:
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: G, h: LEFT GUI}
+  - {t: G, h: '$$mdi:apple-keyboard-command$$'}
   - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
