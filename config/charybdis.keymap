@@ -61,20 +61,20 @@
         Base {
             label = "Base";
             bindings = <
-  &kp Q  &kp W        &kp E          &kp R         &kp T              &kp Y        &kp U          &kp I         &kp O        &kp P
+  &none  &kp W        &kp E          &kp R         &kp T              &kp Y        &kp U          &kp I         &kp O        &none
   &kp A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &hmr RGUI H  &hmr RCTRL J   &hmr RSHIFT K  &hmr RALT L  &kp APOSTROPHE
   &kp Z  &kp X        &kp C          &kp V         &kp B              &kp N        &kp M          &kp COMMA     &kp DOT      &kp SLASH
-                      &mo 3          &lt 1 ENTER         &mo 2        &kp BACKSPACE    &kp SPACE
+                      &lt 3 Q          &mo 1         &lt 2 ENTER        &lt 5 P    &kp SPACE
             >;
         };
 
         Navigation {
             label = "Navigation";
             bindings = <
-  &kp ESCAPE  &none     &kp PAGE_UP    &none    &none      &kp RC(PG_UP)      &none     &kp UP_ARROW      &none              &kp DELETE
-  &none       &kp HOME  &kp PAGE_DOWN  &kp END  &kp TAB    &kp RC(PAGE_DOWN)  &kp LEFT  &kp DOWN          &kp RIGHT          &none
-  &none       &none     &none          &none    &none      &none              &none     &kp RA(RC(LEFT))  &kp RA(RC(RIGHT))  &none
-                        &trans         &trans   &trans     &trans             &trans
+  &none  &none       &kp PAGE_UP    &none    &none    &none              &none     &kp UP_ARROW      &none              &none
+  &none  &kp HOME    &kp PAGE_DOWN  &kp END  &none    &kp RC(PAGE_UP)    &kp LEFT  &kp DOWN          &kp RIGHT          &none
+  &none  &kp ESCAPE  &none          &kp TAB  &none    &kp RC(PAGE_DOWN)  &none     &kp RA(RC(LEFT))  &kp RA(RC(RIGHT))  &none
+                        &trans         &trans   &trans     &DELETE             &BACKSPACE
             >;
         };
 
@@ -100,10 +100,10 @@
 
         Scroll {
             bindings = <
-  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
-  &none  &mkp MB2 &mkp MB3 &mkp MB1  &none    &none  &mkp MB1 &mkp MB3 &mkp MB2  &none
-  &none  &none    &none    &none     &none    &none  &none    &none    &none     &none
-                  &none    &none     &none    &none  &none
+  &trans  &trans    &trans    &trans     &trans    &trans  &trans    &trans    &trans     &trans
+  &trans  &trans &trans &trans  &trans    &trans  &trans &trans &trans  &trans
+  &trans  &trans    &trans    &trans     &trans    &trans  &trans    &trans    &trans     &trans
+                  &mkp MB2 &mkp MB3 &mkp MB1    &trans  &trans
             >;
 
             label = "Scroll";
