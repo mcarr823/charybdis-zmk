@@ -70,8 +70,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '&DELETE'
-  - '&BACKSPACE'
+  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   Number:
   - ''
   - ''
