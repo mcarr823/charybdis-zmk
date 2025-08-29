@@ -62,7 +62,7 @@
             label = "Base";
             bindings = <
   &none  &kp W        &kp E          &kp R         &kp T              &kp Y        &kp U          &kp I         &kp O        &none
-  &kp A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &hml LEFT_GUI G    &hmr RGUI H  &hmr RCTRL J   &hmr RSHIFT K  &hmr RALT L  &kp APOSTROPHE
+  &kp A  &hml LALT S  &hml LSHIFT D  &hml LCTRL F  &hml LGUI G    &hmr RGUI H  &hmr RCTRL J   &hmr RSHIFT K  &hmr RALT L  &kp APOSTROPHE
   &kp Z  &kp X        &kp C          &kp V         &kp B              &kp N        &kp M          &kp COMMA     &kp DOT      &kp SLASH
                       &lt 3 Q          &mo 1         &lt 2 ENTER        &lt 5 P    &kp SPACE
             >;
