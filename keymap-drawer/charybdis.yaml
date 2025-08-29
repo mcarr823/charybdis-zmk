@@ -235,7 +235,3 @@ combos:
 - p: [26, 27]
   k: '&mkp MCLK'
   l: [Base]
-- p: [20, 0]
-  k: '&bootloader'
-- p: [9, 29]
-  k: '&bootloader'
