@@ -74,7 +74,7 @@
   &none  &none       &kp PAGE_UP    &none    &none    &none              &none     &kp UP_ARROW      &none              &none
   &none  &kp HOME    &kp PAGE_DOWN  &kp END  &none    &kp RC(PAGE_UP)    &kp LEFT  &kp DOWN          &kp RIGHT          &none
   &none  &kp ESCAPE  &none          &kp TAB  &none    &kp RC(PAGE_DOWN)  &none     &kp RA(RC(LEFT))  &kp RA(RC(RIGHT))  &none
-                        &trans         &trans   &trans     &DELETE             &BACKSPACE
+                        &trans         &trans   &trans     &kp DELETE             &kp BACKSPACE
             >;
         };
 
