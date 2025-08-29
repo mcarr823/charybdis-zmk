@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
   Base:
-  - Q
+  - ''
   - W
   - E
   - R
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - ''
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -31,38 +31,38 @@ layers:
   - ','
   - .
   - /
-  - Media
+  - {t: Q, h: Media}
   - Navigation
-  - {t: '$$mdi:keyboard-return$$', h: Symbol}
+  - {t: '$$mdi:keyboard-return$$', h: Number}
+  - {t: P, h: Symbol}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
   Navigation:
-  - ESCAPE
+  - ''
   - ''
   - PAGE UP
   - ''
   - ''
-  - Ctl+PG UP
+  - ''
   - ''
   - UP ARROW
   - ''
-  - $$mdi:backspace-reverse-outline$$
+  - ''
   - ''
   - HOME
   - PAGE DOWN
   - END
-  - $$mdi:keyboard-tab$$
-  - Ctl+PAGE DOWN
+  - ''
+  - Ctl+PAGE UP
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - ''
   - ''
+  - ESCAPE
   - ''
+  - $$mdi:keyboard-tab$$
   - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+PAGE DOWN
   - ''
   - AltGr+Ctl+$$mdi:arrow-left-bold$$
   - AltGr+Ctl+$$mdi:arrow-right-bold$$
@@ -70,9 +70,19 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Symbol:
+  - '&DELETE'
+  - '&BACKSPACE'
+  Number:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - '1'
   - '2'
   - '3'
@@ -83,26 +93,16 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
-  - '`'
-  - '-'
-  - '='
-  - ''
-  - ''
-  - '['
-  - ']'
-  - \
-  - ;
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - Sft+9
+  - Sft+0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -119,20 +119,20 @@ layers:
   - F8
   - F9
   - F10
-  - Scroll
+  - ''
   - Meh+$$mdi:arrow-left-bold$$
   - {t: 'Meh+$$mdi:keyboard-return$$', type: enter}
   - Meh+$$mdi:arrow-right-bold$$
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - ''
-  - ''
   - Meh+-
   - Meh+$$mdi:keyboard-space$$
   - Meh+=
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '0'}
@@ -155,30 +155,66 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Symbol:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '-'
+  - '='
+  - ''
+  - ''
+  - '['
+  - ']'
+  - \
+  - ;
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
