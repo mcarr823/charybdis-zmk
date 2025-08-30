@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: default_transform}
 layers:
   Base:
-  - ''
+  - Q
   - W
   - E
   - R
@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - ''
+  - P
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -31,11 +31,11 @@ layers:
   - ','
   - .
   - /
-  - {t: Q, h: Media}
+  - Media
   - Navigation
   - {t: '$$mdi:keyboard-return$$', h: Number}
-  - {t: P, h: Symbol}
   - $$mdi:keyboard-space$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   Navigation:
   - ''
   - ''
@@ -46,7 +46,7 @@ layers:
   - ''
   - UP ARROW
   - ''
-  - ''
+  - '&DELETE'
   - ''
   - HOME
   - PAGE DOWN
@@ -70,19 +70,9 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Number:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - '1'
   - '2'
   - '3'
@@ -93,6 +83,16 @@ layers:
   - '8'
   - '9'
   - '0'
+  - ''
+  - '`'
+  - '-'
+  - '='
+  - ''
+  - ''
+  - '['
+  - ']'
+  - \
+  - ;
   - Sft+1
   - Sft+2
   - Sft+3
@@ -175,46 +175,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB2'
   - '&mkp MB3'
   - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Symbol:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '`'
-  - '-'
-  - '='
-  - ''
-  - ''
-  - '['
-  - ']'
-  - \
-  - ;
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
